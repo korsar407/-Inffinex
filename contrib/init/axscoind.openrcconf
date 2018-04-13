@@ -1,0 +1,26 @@
+# /etc/conf.d/axscoind: config file for /etc/init.d/axscoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/axscoin/axscoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/axscoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/axscoind.pid"
+
+# Where to write axscoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/axscoind"
+
+# User and group to own axscoind process
+#BITCOIND_USER="axscoin"
+#BITCOIND_GROUP="axscoin"
+
+# Path to axscoind executable
+#BITCOIND_BIN="/usr/bin/axscoind"
+
+# Nice value to run axscoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
